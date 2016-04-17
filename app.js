@@ -19,3 +19,9 @@ function backspace(){
     newNumber=number.substring(0,len);
     box.value=newNumber;
 }
+
+function power(y){
+    x=box.value;
+    x=Math.pow(x,y);
+    box.value=x;
+}
